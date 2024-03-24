@@ -1,0 +1,32 @@
+.logo { max-width: 600px;
+        width: 100%;
+      }
+.logo-se { display: flex;
+           justify-content: center;
+           padding-top: 40px;
+         }
+.slide-button {margin-top: 10px;
+               position:absolute;}
+body {background-color: #f5f1e5;}
+
+.slide-se {justify-content:center;
+           display: flex;
+           position: relative;
+          }
+          .w3-button {font-size: 30px;
+          }
+.main-div {display: flex;
+           margin-top: 50px;
+           column-gap: 300px;
+           justify-content: center;
+           }
+.square {text-align: center;
+         border: solid;
+         border-color: #337044;
+         width: 400px;
+         height: 80px;
+         font-size: 25px;
+         padding: 20px;
+         border-radius: 5%;
+         }
+.tgm {  color:#337044; }
