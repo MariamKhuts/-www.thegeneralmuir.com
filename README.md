@@ -1,2 +1,2 @@
-# -www.thegeneralmuir.com
+generalmuir
 //www.thegeneralmuir.com
