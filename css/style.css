@@ -50,17 +50,43 @@ body {background-color: #f5f1e5;}
 .line3 {margin-bottom: 40px;}
 .text p {color: grey;}
 .bread-img {margin-top: 40px;
-  margin-bottom: 40px;
+          margin-bottom: 40px;
 }
 .bread {max-width: 300px;}
 .ADD {margin-bottom: 20px;}
 .red-div {background-color: red;
-  width: 110px;
-  height: 110px;
-           border-radius: 50px;
+          width: 110px;
+          height: 110px;
+          border-radius: 50%;
           text-align: center;
-        display: flex;
-      justify-content: center;
-    text-align: center;}
+          margin: 0 auto;
+         
+         
+              
+  }
 .t-mich {color: white;
-        font-weight: 500px;}
+        font-weight: 500px;
+         margin-top: 50px;}
+.eat-text{ font-family: "Caveat", cursive;
+           font-size: 45px;
+           font-weight: 700px;
+           margin-top: 50px;
+           margin-left: 50px;} 
+.ship-img {align-items: center;
+           max-width: 400px;}
+.ship-div {margin-left: 450px
+}
+  .story-title {font-family: "Caveat", cursive;
+                font-size: 45px;
+                font-weight: 700px; }
+  .story-div {text-align: center;
+              flex-direction: column; 
+             max-width: 1000px;
+             margin: 0 auto
+             ;  }      
+  .line {        text-align: left;
+                 font-size: 15px;
+                 font-weight: 300px;
+                 margin-top: 30px;
+                 margin-bottom: 30px;
+           }
