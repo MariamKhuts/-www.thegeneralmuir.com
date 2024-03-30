@@ -1,10 +1,4 @@
-.logo { max-width: 600px;
-        width: 100%;
-      }
-.logo-se { display: flex;
-           justify-content: center;
-           padding-top: 40px;
-         }
+      
 .slide-button {margin-top: 10px;
                position:absolute;}
 body {background-color: #f5f1e5;}
@@ -12,6 +6,7 @@ body {background-color: #f5f1e5;}
 .slide-se {justify-content:center;
            display: flex;
            position: relative;
+           margin-top: 50px;
           }
           .w3-button {font-size: 30px;
           }
@@ -90,3 +85,95 @@ body {background-color: #f5f1e5;}
                  margin-top: 30px;
                  margin-bottom: 30px;
            }
+
+
+           /* header*/
+
+header {font-family: "Montserrat", sans-serif;
+        background-color: #f2f2f2;
+         display: flex;
+         color: grey;
+         justify-content: center;
+         
+}
+.logo { max-width: 300px;
+        width: 100%;
+    }
+.nav {width: 960px;
+      display: flex;
+       margin: 0 auto;
+      justify-content: space-between;
+}
+
+.lang-menu {margin-top: 25px;
+             position: relative;}
+.selected-language {cursor: pointer;
+                    display: flex;
+                  
+                  line-height: 2;
+                  width: 110px;
+                  justify-content: space-between;
+            }
+.selected-language::before {
+      content: "";
+      display: block;
+      width: 32px;
+      height: 32px;
+      background-image: url(https://flagsapi.com/GB/shiny/32.png);
+
+}
+
+.lang-menu ul {
+
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      border-style: 1px solid #f8f8f8;
+      box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      display: none;
+      position: absolute;
+      top:30px;
+      left: 0;
+}
+.lang-menu ul li a {
+
+      width: 145px;
+      display: block;
+      padding: 5px 10px;
+  }
+
+  .lang-menu ul li a:hover {background-color: #f2f2f2;
+
+  }
+
+  .lang-menu ul li a::before {
+
+      content: "";
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      vertical-align: middle;
+      margin-right: 5px;
+   
+      
+
+  }
+
+  .lang-menu ul li {display: flex;
+                 justify-content: space-between;
+                 line-height: 2;
+                 width: 110px;}
+.ge::before {background-image: url(https://flagsapi.com/GE/shiny/32.png);
+}
+
+.gr::before {background-image: url(https://flagsapi.com/GR/shiny/32.png);
+ }
+
+ .fr::before {background-image: url(https://flagsapi.com/FR/shiny/32.png);
+ }
+
+ .ae::before {background-image: url(https://flagsapi.com/AE/shiny/32.png);
+ }
+
+ .lang-menu:hover ul { display: block;}
